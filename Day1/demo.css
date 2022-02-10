@@ -1,0 +1,30 @@
+.header {
+  height: 200px;
+  width: 100%;
+  background-color: royalblue;
+}
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+.left-section {
+  width: 15%;
+  height: 500px;
+  float: left;
+  background-color: green;
+}
+.right-section {
+  width: 85%;
+  height: 500px;
+  float: left;
+  background-color: rgb(21, 171, 182);
+}
+
+.body {
+  height: 500px;
+}
+
+body{
+    margin:0;
+}
