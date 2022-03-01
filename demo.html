@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" placeholder="Enter here" id="inp1" />
+    <button onclick="add()">Add your data</button>
+    <h1 id="heading1"></h1>
+    <script>
+      function add() {
+        let injVariable = document.getElementById("inp1").value;
+        document.getElementById("heading1").innerHTML = injVariable;
+        
+        if(injVariable=='alert')    alert("data added" + injVariable);
+      }
+    </script>
+  </body>
+</html>
